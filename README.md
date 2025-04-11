@@ -6,7 +6,7 @@ This is a repo describing the [Fast Healthcare Interoperability Resources (FHIR)
 The .json represntation of the pdf format developed by the study investigators was created using [NIH/NLM Lister Hill FHIR Tools](https://lhcforms.nlm.nih.gov/), specifically the [LHC Form Builder](https://formbuilder.nlm.nih.gov/). JSON stands for JavaScript Object Notation and is used for data interchange. To learn more about JSON check out [W3Schools Page](https://www.w3schools.com/whatis/whatis_json.asp).
 
 ## To View the SDC GOS Form
-1. Download the file Glaucoma-Outcomes-Survey.LHC-Forms.json [https://github.com/goetzke2/Glaucoma-Outcomes-Survey/blob/main/Glaucoma-Outcomes-Survey.LHC-Forms.json]
+1. Download the file Glaucoma-Outcomes-Survey.LHC-Forms.json [here](https://github.com/goetzke2/Glaucoma-Outcomes-Survey/blob/main/Glaucoma-Outcomes-Survey.LHC-Forms.json)
 2. Navigate to [LHC Form Builder](https://formbuilder.nlm.nih.gov/)
 3. Select 'Start with Existing Form'
 4. Select 'Import from Local Server' *Eventually we hope to be able to load from LOINC or from a FHIR Server
