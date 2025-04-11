@@ -1,0 +1,4528 @@
+{
+  "lformsVersion": "36.15.3",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/5.0/StructureDefinition/Questionnaire"
+    ]
+  },
+  "code": "99192-7",
+  "status": "draft",
+  "name": "Patient-reported outcomes with LASIK - pre-operative panel [Patient reported outcomes with LASIK]",
+  "codeList": [
+    {
+      "system": "http://loinc.org",
+      "code": "99192-7",
+      "display": "Patient-reported outcomes with LASIK - pre-operative panel [Patient reported outcomes with LASIK]"
+    }
+  ],
+  "codeSystem": "LOINC",
+  "items": [
+    {
+      "dataType": "CODING",
+      "question": "Where are you taking this questionnaire?",
+      "codeList": [
+        {
+          "code": "64497-1",
+          "display": "Where are you taking this questionnaire?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64497-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64497-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA14084-0",
+          "text": "Home",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA26177-8",
+          "text": "Doctor's office",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31152-4",
+          "text": "Other location",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In general, would you say your health is:",
+      "codeList": [
+        {
+          "code": "61577-3",
+          "display": "In general, would you say your health is:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "61577-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/61577-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA9206-9",
+          "text": "Excellent",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13913-1",
+          "text": "Very Good",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA8967-7",
+          "text": "Good",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA8968-5",
+          "text": "Fair",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA8969-3",
+          "text": "Poor",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How often do you worry about your eyesight or vision?",
+      "codeList": [
+        {
+          "code": "64847-7",
+          "display": "How often do you worry about your eyesight or vision?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64847-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64847-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6483-7",
+          "text": "Occasionally",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6154-4",
+          "text": "All of the time",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How often do you notice or think about your eyesight or vision?",
+      "codeList": [
+        {
+          "code": "99193-5",
+          "display": "How often do you notice or think about your eyesight or vision?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99193-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99193-5",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6483-7",
+          "text": "Occasionally",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6154-4",
+          "text": "All of the time",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "At this time, how clear is your vision using the correction you normally use, including glasses, contact lenses, a magnifier, or nothing at all?",
+      "codeList": [
+        {
+          "code": "64846-9",
+          "display": "At this time, how clear is your vision using the correction you normally use, including glasses, contact lenses, a magnifier, or nothing at all?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64846-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64846-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31153-2",
+          "text": "Perfectly clear",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31154-0",
+          "text": "Pretty clear",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31155-7",
+          "text": "Somewhat clear",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31156-5",
+          "text": "Not clear at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "As long as I could see well enough to drive without wearing glasses or contact lenses, I wouldn't mind having vision that was less than perfect.",
+      "codeList": [
+        {
+          "code": "99194-3",
+          "display": "As long as I could see well enough to drive without wearing glasses or contact lenses, I wouldn't mind having vision that was less than perfect.",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99194-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99194-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA14740-7",
+          "text": "Definitely true",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14741-5",
+          "text": "Mostly true",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA12688-0",
+          "text": "Don't know",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14742-3",
+          "text": "Mostly false",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14743-1",
+          "text": "Definitely false",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much of the time do you expect to use glasses or contact lenses to see things in the distance after healing from LASIK surgery?",
+      "codeList": [
+        {
+          "code": "99195-0",
+          "display": "How much of the time do you expect to use glasses or contact lenses to see things in the distance after healing from LASIK surgery?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99195-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99195-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6154-4",
+          "text": "All of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14734-0",
+          "text": "Most of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14733-2",
+          "text": "Some of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14751-4",
+          "text": "Hardly ever",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much of the time do you expect to use glasses or contact lenses to see things up close after healing from LASIK surgery?",
+      "codeList": [
+        {
+          "code": "99196-8",
+          "display": "How much of the time do you expect to use glasses or contact lenses to see things up close after healing from LASIK surgery?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99196-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99196-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6154-4",
+          "text": "All of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14734-0",
+          "text": "Most of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14733-2",
+          "text": "Some of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14751-4",
+          "text": "Hardly ever",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "After healing from LASIK surgery, I expect that I will have clear vision:",
+      "codeList": [
+        {
+          "code": "99197-6",
+          "display": "After healing from LASIK surgery, I expect that I will have clear vision:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99197-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99197-6",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31157-3",
+          "text": "With the aid of glasses to see in the distance",
+          "system": "http://loinc.org",
+          "label": "PRGLSDS"
+        },
+        {
+          "code": "LA31158-1",
+          "text": "With the aid of glasses for reading",
+          "system": "http://loinc.org",
+          "label": "PRGLSRD"
+        },
+        {
+          "code": "LA31159-9",
+          "text": "With the aid of contact lenses to see in the distance",
+          "system": "http://loinc.org",
+          "label": "PRCNTDS"
+        },
+        {
+          "code": "LA31160-7",
+          "text": "With the aid of contact lenses for reading",
+          "system": "http://loinc.org",
+          "label": "PRCNTRD"
+        },
+        {
+          "code": "LA31161-5",
+          "text": "Without glasses or contact lenses",
+          "system": "http://loinc.org",
+          "label": "PRNOGLCT"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "After healing from LASIK surgery, I expect my vision to be perfect.",
+      "codeList": [
+        {
+          "code": "99198-4",
+          "display": "After healing from LASIK surgery, I expect my vision to be perfect.",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99198-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99198-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA14740-7",
+          "text": "Definitely true",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14741-5",
+          "text": "Mostly true",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA12688-0",
+          "text": "Don't know",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14742-3",
+          "text": "Mostly false",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14743-1",
+          "text": "Definitely false",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "I could accept less than perfect vision if I did not need glasses or contact lenses any more after healing from LASIK surgery.",
+      "codeList": [
+        {
+          "code": "99199-2",
+          "display": "I could accept less than perfect vision if I did not need glasses or contact lenses any more after healing from LASIK surgery.",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99199-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99199-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA14740-7",
+          "text": "Definitely true",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14741-5",
+          "text": "Mostly true",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA12688-0",
+          "text": "Don't know",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14742-3",
+          "text": "Mostly false",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14743-1",
+          "text": "Definitely false",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Have you ever driven a car?",
+      "codeList": [
+        {
+          "code": "99200-8",
+          "display": "Have you ever driven a car?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99200-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99200-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Do you currently drive?",
+      "codeList": [
+        {
+          "code": "64849-3",
+          "display": "Do you currently drive?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64849-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64849-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "If you gave up driving, was that mainly because of your vision, mainly for some other reason, or because of both your vision and other reasons?",
+      "codeList": [
+        {
+          "code": "64851-9",
+          "display": "If you gave up driving, was that mainly because of your vision, mainly for some other reason, or because of both your vision and other reasons?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64851-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64851-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31162-3",
+          "text": "Mainly vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14738-1",
+          "text": "Mainly other reasons",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31163-1",
+          "text": "Both vision and other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Because of your vision, how much difficulty do you have driving during the daytime in familiar places? Would you say you have:",
+      "codeList": [
+        {
+          "code": "64852-7",
+          "display": "Because of your vision, how much difficulty do you have driving during the daytime in familiar places? Would you say you have:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64852-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64852-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31164-9",
+          "text": "Never drive during the daytime because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31165-6",
+          "text": "Never drive during the daytime for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Because of your vision, how much difficulty do you have driving at night?",
+      "codeList": [
+        {
+          "code": "99202-4",
+          "display": "Because of your vision, how much difficulty do you have driving at night?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99202-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99202-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31166-4",
+          "text": "Never drive at night because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31167-2",
+          "text": "Never drive at night for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Because of your vision, how much difficulty do you have driving in difficulty conditions, such as bad weather, during rush hour, on the freeway, or in city traffic?",
+      "codeList": [
+        {
+          "code": "64854-3",
+          "display": "Because of your vision, how much difficulty do you have driving in difficulty conditions, such as bad weather, during rush hour, on the freeway, or in city traffic?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "64854-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/64854-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31168-0",
+          "text": "Never drive in these conditions because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31169-8",
+          "text": "Never drive in these conditions for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have seeing things off to the side, like cars coming out of driveways or side streets or people coming out of doorways?",
+      "codeList": [
+        {
+          "code": "66082-9",
+          "display": "How much difficulty do you have seeing things off to the side, like cars coming out of driveways or side streets or people coming out of doorways?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "66082-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/66082-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Because of your vision, how much difficulty do you have with your daily activities?",
+      "codeList": [
+        {
+          "code": "99203-2",
+          "display": "Because of your vision, how much difficulty do you have with your daily activities?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99203-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99203-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Because of your vision, how much difficulty do you have taking part in active sports or other outdoor activities that you enjoy (like hiking, swimming, aerobics, team sports, or jogging)?",
+      "codeList": [
+        {
+          "code": "66058-9",
+          "display": "Because of your vision, how much difficulty do you have taking part in active sports or other outdoor activities that you enjoy (like hiking, swimming, aerobics, team sports, or jogging)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "66058-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/66058-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31170-6",
+          "text": "Never try to do these activities because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31171-4",
+          "text": "Never try to do these activities for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Because of your vision, do you take part less than you would like in active sports or other outdoor activities (like hiking, swimming, aerobics, team sports, or jogging)?",
+      "codeList": [
+        {
+          "code": "99204-0",
+          "display": "Because of your vision, do you take part less than you would like in active sports or other outdoor activities (like hiking, swimming, aerobics, team sports, or jogging)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99204-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99204-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Are there any recreational or sports activities that you don't do because of your vision or the type of vision correction you have?",
+      "codeList": [
+        {
+          "code": "99205-7",
+          "display": "Are there any recreational or sports activities that you don't do because of your vision or the type of vision correction you have?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99205-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99205-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31172-2",
+          "text": "Yes, many",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31173-0",
+          "text": "Yes, a few",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "ST",
+      "question": "You have noted that you have difficulty with your daily activities because of your vision. Please list those activities with which you have difficulty (e.g., watching television, using automated teller machines (ATM), etc.)",
+      "codeList": [
+        {
+          "code": "99206-5",
+          "display": "You have noted that you have difficulty with your daily activities because of your vision. Please list those activities with which you have difficulty (e.g., watching television, using automated teller machines (ATM), etc.)",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99206-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99206-5",
+      "questionCardinality": {
+        "max": "1",
+        "min": "1"
+      }
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have doing work or hobbies that require you to see well up close, such as cooking, finding things around the house, sewing, using hand tools, or working with a computer?",
+      "codeList": [
+        {
+          "code": "66078-7",
+          "display": "How much difficulty do you have doing work or hobbies that require you to see well up close, such as cooking, finding things around the house, sewing, using hand tools, or working with a computer?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "66078-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/66078-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31170-6",
+          "text": "Never try to do these activities because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31171-4",
+          "text": "Never try to do these activities for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have reading ordinary print in newspapers?",
+      "codeList": [
+        {
+          "code": "66077-9",
+          "display": "How much difficulty do you have reading ordinary print in newspapers?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "66077-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/66077-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31174-8",
+          "text": "Never try to do this because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31175-5",
+          "text": "Never try to do this for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have reading small print in a telephone book, on a medicine bottle, or on legal forms?",
+      "codeList": [
+        {
+          "code": "83446-5",
+          "display": "How much difficulty do you have reading small print in a telephone book, on a medicine bottle, or on legal forms?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "83446-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/83446-5",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31170-6",
+          "text": "Never try to do these activities because of vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31171-4",
+          "text": "Never try to do these activities for other reasons",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Are there daily activities that you would like to do but don't do because of your vision or the type of vision correction you have?",
+      "codeList": [
+        {
+          "code": "99207-3",
+          "display": "Are there daily activities that you would like to do but don't do because of your vision or the type of vision correction you have?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99207-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99207-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31172-2",
+          "text": "Yes, many",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32762-9",
+          "text": "Yes, one or a few",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have judging distances, like walking down stairs or parking a car?",
+      "codeList": [
+        {
+          "code": "99208-1",
+          "display": "How much difficulty do you have judging distances, like walking down stairs or parking a car?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99208-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99208-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have getting used to the dark when you move from a lighted area into a dark place, like walking into a dark movie theater?",
+      "codeList": [
+        {
+          "code": "99209-9",
+          "display": "How much difficulty do you have getting used to the dark when you move from a lighted area into a dark place, like walking into a dark movie theater?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99209-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99209-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How much difficulty do you have seeing because of changes in the clarity of your vision during the course of the day?",
+      "codeList": [
+        {
+          "code": "99210-7",
+          "display": "How much difficulty do you have seeing because of changes in the clarity of your vision during the course of the day?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99210-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99210-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31176-3",
+          "text": "Don't have changes in the clarity of my vision",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15725-7",
+          "text": "A little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How often are you bothered by changes in the clarity of your vision over the course of the day?",
+      "codeList": [
+        {
+          "code": "99211-5",
+          "display": "How often are you bothered by changes in the clarity of your vision over the course of the day?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99211-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99211-5",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6483-7",
+          "text": "Occasionally",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6154-4",
+          "text": "All of the time",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How often when you are around bright lights at night do you see starbursts or halos that bother you or make it difficult to see?",
+      "codeList": [
+        {
+          "code": "99212-3",
+          "display": "How often when you are around bright lights at night do you see starbursts or halos that bother you or make it difficult to see?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99212-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99212-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6154-4",
+          "text": "All of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14734-0",
+          "text": "Most of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14733-2",
+          "text": "Some of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14732-4",
+          "text": "A little of the time",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6297-1",
+          "text": "None of the time",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Have you experienced glare in the last 7 days?",
+      "codeList": [
+        {
+          "code": "99213-1",
+          "display": "Have you experienced glare in the last 7 days?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99213-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99213-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How bothersome has it been?",
+      "codeList": [
+        {
+          "code": "99214-9",
+          "display": "How bothersome has it been?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99214-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99214-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA29696-4",
+          "text": "Very",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13909-9",
+          "text": "Somewhat",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13940-4",
+          "text": "A little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Have you experienced distorted vision in the last 7 days?",
+      "codeList": [
+        {
+          "code": "99215-6",
+          "display": "Have you experienced distorted vision in the last 7 days?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99215-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99215-6",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How bothersome has it been?",
+      "codeList": [
+        {
+          "code": "99216-4",
+          "display": "How bothersome has it been?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99216-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99216-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA29696-4",
+          "text": "Very",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13909-9",
+          "text": "Somewhat",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13940-4",
+          "text": "A little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Have you experienced blurry vision in the last 7 days?",
+      "codeList": [
+        {
+          "code": "99217-2",
+          "display": "Have you experienced blurry vision in the last 7 days?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99217-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99217-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How bothersome has it been?",
+      "codeList": [
+        {
+          "code": "99218-0",
+          "display": "How bothersome has it been?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99218-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99218-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA29696-4",
+          "text": "Very",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13909-9",
+          "text": "Somewhat",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13940-4",
+          "text": "A little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Have you experienced trouble seeing in the last 7 days?",
+      "codeList": [
+        {
+          "code": "99219-8",
+          "display": "Have you experienced trouble seeing in the last 7 days?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99219-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99219-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How bothersome has it been?",
+      "codeList": [
+        {
+          "code": "99220-6",
+          "display": "How bothersome has it been?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99220-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99220-6",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA29696-4",
+          "text": "Very",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13909-9",
+          "text": "Somewhat",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13940-4",
+          "text": "A little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In general, how satisfied or dissatisfied are you with your present vision?",
+      "codeList": [
+        {
+          "code": "99221-4",
+          "display": "In general, how satisfied or dissatisfied are you with your present vision?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99221-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99221-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA27754-3",
+          "text": "Completely satisfied",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14642-5",
+          "text": "Very satisfied",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA27752-7",
+          "text": "Somewhat satisfied",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA29849-9",
+          "text": "Somewhat dissatisfied",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14638-3",
+          "text": "Very dissatisfied",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31177-1",
+          "text": "Completely dissatisfied",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Are you currently employed (working for pay)?",
+      "codeList": [
+        {
+          "code": "99222-2",
+          "display": "Are you currently employed (working for pay)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99222-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99222-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "REAL",
+      "question": "During the past seven days, how many hours did you miss from work because of any eye problems?",
+      "codeList": [
+        {
+          "code": "99223-0",
+          "display": "During the past seven days, how many hours did you miss from work because of any eye problems?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99223-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99223-0",
+      "questionCardinality": {
+        "max": "1",
+        "min": "1"
+      },
+      "units": [
+        {
+          "name": "h",
+          "code": "h",
+          "system": "http://unitsofmeasure.org",
+          "default": true
+        }
+      ]
+    },
+    {
+      "dataType": "REAL",
+      "question": "During the past seven days, how many hours did you miss from work because of any other reason, such as vacation, holidays, time off to participate in this study?",
+      "codeList": [
+        {
+          "code": "99224-8",
+          "display": "During the past seven days, how many hours did you miss from work because of any other reason, such as vacation, holidays, time off to participate in this study?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99224-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99224-8",
+      "questionCardinality": {
+        "max": "1",
+        "min": "1"
+      },
+      "units": [
+        {
+          "name": "h",
+          "code": "h",
+          "system": "http://unitsofmeasure.org",
+          "default": true
+        }
+      ]
+    },
+    {
+      "dataType": "REAL",
+      "question": "During the past seven days, how many hours did you actually work?",
+      "codeList": [
+        {
+          "code": "99225-5",
+          "display": "During the past seven days, how many hours did you actually work?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99225-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99225-5",
+      "questionCardinality": {
+        "max": "1",
+        "min": "1"
+      },
+      "units": [
+        {
+          "name": "h",
+          "code": "h",
+          "system": "http://unitsofmeasure.org",
+          "default": true
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "During the past seven days, how much did eye problems affect your productivity while you were working?",
+      "codeList": [
+        {
+          "code": "99226-3",
+          "display": "During the past seven days, how much did eye problems affect your productivity while you were working?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99226-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99226-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31178-9",
+          "text": "0: Eye problem(s) had no effect on my work",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6112-2",
+          "text": "1",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6113-0",
+          "text": "2 or more",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6114-8",
+          "text": "3",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6115-5",
+          "text": "4",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10137-0",
+          "text": "5",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10138-8",
+          "text": "6",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10139-6",
+          "text": "7",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10140-4",
+          "text": "8",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10141-2",
+          "text": "9",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31179-7",
+          "text": "10: Eye problem(s) completely prevented me from working",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "During the past seven days, how much did eye problems affect your ability to do your regular daily activities, other than work at a job?",
+      "codeList": [
+        {
+          "code": "99227-1",
+          "display": "During the past seven days, how much did eye problems affect your ability to do your regular daily activities, other than work at a job?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99227-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99227-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31180-5",
+          "text": "0: Eye problem(s) had no effect on my daily activities",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6112-2",
+          "text": "1",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6113-0",
+          "text": "2 or more",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6114-8",
+          "text": "3",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6115-5",
+          "text": "4",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10137-0",
+          "text": "5",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10138-8",
+          "text": "6",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10139-6",
+          "text": "7",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10140-4",
+          "text": "8",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10141-2",
+          "text": "9",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31181-3",
+          "text": "10: Eye problem(s) completely prevented me from doing my regular activities",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In a typical day:",
+      "codeList": [
+        {
+          "code": "99228-9",
+          "display": "In a typical day:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99228-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99228-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32719-9",
+          "text": "I use glasses to correct my vision for distance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32720-7",
+          "text": "I use glasses to correct my vision for reading",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32721-5",
+          "text": "I use soft contact lenses to correct my vision for distance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32722-3",
+          "text": "I use soft contact lenses to correct my vision for reading",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32723-1",
+          "text": "I use hard (rigid gas permeable) contact lenses to correct my vision for distance",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32724-9",
+          "text": "I use hard (rigid gas permeable) contact lenses to correct my vision for reading",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, have you seen any double images?",
+      "codeList": [
+        {
+          "code": "99229-7",
+          "display": "In the last 7 days, have you seen any double images?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99229-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99229-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31182-1",
+          "text": "Yes, but ONLY when NOT wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31183-9",
+          "text": "Yes, but ONLY when wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31184-7",
+          "text": "Yes, when wearing AND when not wearing glasses or contacts",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA18387-3",
+          "text": "No, not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you seen double images when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99230-5",
+          "display": "In the last 7 days, how often have you seen double images when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99230-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99230-5",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you seen double images when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99231-3",
+          "display": "In the last 7 days, how often have you seen double images when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99231-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99231-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome have the double images been when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99232-1",
+          "display": "In the last 7 days, how bothersome have the double images been when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99232-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99232-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome have the double images been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99233-9",
+          "display": "In the last 7 days, how bothersome have the double images been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99233-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99233-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you see double images when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99234-7",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you see double images when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99234-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99234-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you see double images when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99235-4",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you see double images when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99235-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99235-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "When you use your best vision correction (glasses or contact lenses) do the double images you see:",
+      "codeList": [
+        {
+          "code": "99236-2",
+          "display": "When you use your best vision correction (glasses or contact lenses) do the double images you see:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99236-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99236-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31192-0",
+          "text": "Go away completely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31193-8",
+          "text": "Go away mostly",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31194-6",
+          "text": "Go away a little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31195-3",
+          "text": "Not change",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31196-1",
+          "text": "Get a little worse",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31197-9",
+          "text": "Get a lot worse",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, have you noticed any glare?",
+      "codeList": [
+        {
+          "code": "99213-1",
+          "display": "In the last 7 days, have you noticed any glare?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99213-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99213-1.2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31182-1",
+          "text": "Yes, but ONLY when NOT wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31183-9",
+          "text": "Yes, but ONLY when wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31184-7",
+          "text": "Yes, when wearing AND when not wearing glasses or contacts",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA18387-3",
+          "text": "No, not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you noticed glare when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99237-0",
+          "display": "In the last 7 days, how often have you noticed glare when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99237-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99237-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you noticed glare when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99238-8",
+          "display": "In the last 7 days, how often have you noticed glare when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99238-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99238-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome has the glare been when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99239-6",
+          "display": "In the last 7 days, how bothersome has the glare been when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99239-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99239-6",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome has the glare been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99240-4",
+          "display": "In the last 7 days, how bothersome has the glare been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99240-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99240-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you noticed glare when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99241-2",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you noticed glare when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99241-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99241-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you notice glare when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99242-0",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you notice glare when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99242-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99242-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "When you use your best vision correction (glasses or contact lenses) does the glare you notice",
+      "codeList": [
+        {
+          "code": "99243-8",
+          "display": "When you use your best vision correction (glasses or contact lenses) does the glare you notice",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99243-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99243-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31192-0",
+          "text": "Go away completely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31193-8",
+          "text": "Go away mostly",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31194-6",
+          "text": "Go away a little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31195-3",
+          "text": "Not change",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31196-1",
+          "text": "Get a little worse",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31197-9",
+          "text": "Get a lot worse",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, have you seen any halos?",
+      "codeList": [
+        {
+          "code": "99244-6",
+          "display": "In the last 7 days, have you seen any halos?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99244-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99244-6",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31182-1",
+          "text": "Yes, but ONLY when NOT wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31183-9",
+          "text": "Yes, but ONLY when wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31184-7",
+          "text": "Yes, when wearing AND when not wearing glasses or contacts",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA18387-3",
+          "text": "No, not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you seen halos when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99245-3",
+          "display": "In the last 7 days, how often have you seen halos when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99245-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99245-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you seen halos when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99246-1",
+          "display": "In the last 7 days, how often have you seen halos when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99246-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99246-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome have the halos been when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99247-9",
+          "display": "In the last 7 days, how bothersome have the halos been when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99247-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99247-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome have the halos been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99248-7",
+          "display": "In the last 7 days, how bothersome have the halos been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99248-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99248-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you see halos when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99249-5",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you see halos when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99249-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99249-5",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you see halos when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99250-3",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you see halos when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99250-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99250-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "When you use your best vision correction (glasses or contact lenses) do the halos you see:",
+      "codeList": [
+        {
+          "code": "99251-1",
+          "display": "When you use your best vision correction (glasses or contact lenses) do the halos you see:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99251-1",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99251-1",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31192-0",
+          "text": "Go away completely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31193-8",
+          "text": "Go away mostly",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31194-6",
+          "text": "Go away a little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31195-3",
+          "text": "Not change",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31196-1",
+          "text": "Get a little worse",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31197-9",
+          "text": "Get a lot worse",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, have you seen any starbursts?",
+      "codeList": [
+        {
+          "code": "99252-9",
+          "display": "In the last 7 days, have you seen any starbursts?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99252-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99252-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31182-1",
+          "text": "Yes, but ONLY when NOT wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31183-9",
+          "text": "Yes, but ONLY when wearing glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31184-7",
+          "text": "Yes, when wearing AND when not wearing glasses or contacts",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA18387-3",
+          "text": "No, not at all",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you seen starbursts when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99253-7",
+          "display": "In the last 7 days, how often have you seen starbursts when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99253-7",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99253-7",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how often have you seen starbursts when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99254-5",
+          "display": "In the last 7 days, how often have you seen starbursts when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99254-5",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99254-5",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6270-8",
+          "text": "Never",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10066-1",
+          "text": "Rarely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10082-8",
+          "text": "Sometimes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10044-8",
+          "text": "Often",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA9933-8",
+          "text": "Always",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome have the starbursts been when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99255-2",
+          "display": "In the last 7 days, how bothersome have the starbursts been when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99255-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99255-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how bothersome have the starbursts been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99256-0",
+          "display": "In the last 7 days, how bothersome have the starbursts been when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99256-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99256-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA27766-7",
+          "text": "Extremely bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31187-0",
+          "text": "Very bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31188-8",
+          "text": "Somewhat bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31189-6",
+          "text": "A little bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA24969-0",
+          "text": "Not at all bothersome",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you see starbursts when you are wearing your best vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99257-8",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you see starbursts when you are wearing your best vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99257-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99257-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "In the last 7 days, how much difficulty have you had doing your usual activities because you see starbursts when you are NOT wearing any vision correction (glasses or contact lenses)?",
+      "codeList": [
+        {
+          "code": "99258-6",
+          "display": "In the last 7 days, how much difficulty have you had doing your usual activities because you see starbursts when you are NOT wearing any vision correction (glasses or contact lenses)?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99258-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99258-6",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA13948-7",
+          "text": "No difficulty at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31190-4",
+          "text": "Very little difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA15726-5",
+          "text": "Moderate difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA13951-1",
+          "text": "A lot of difficulty",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31191-2",
+          "text": "So much difficulty that I can no longer do some of my usual activities",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31186-2",
+          "text": "I always use glasses or contact lenses",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "When you use your best vision correction (glasses or contact lenses) do the starbursts you see:",
+      "codeList": [
+        {
+          "code": "99259-4",
+          "display": "When you use your best vision correction (glasses or contact lenses) do the starbursts you see:",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99259-4",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99259-4",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA31185-4",
+          "text": "I do not use glasses or contact lenses",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31192-0",
+          "text": "Go away completely",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31193-8",
+          "text": "Go away mostly",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31194-6",
+          "text": "Go away a little",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31195-3",
+          "text": "Not change",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31196-1",
+          "text": "Get a little worse",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA31197-9",
+          "text": "Get a lot worse",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "How do you get information about LASIK surgery?",
+      "codeList": [
+        {
+          "code": "99260-2",
+          "display": "How do you get information about LASIK surgery?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99260-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99260-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA32727-2",
+          "text": "Discussions with LASIK surgeon",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32728-0",
+          "text": "Discussions with any other eye care professional (e.g., ophthalmologist or optometrist)",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32729-8",
+          "text": "Discussions with another physician, not an opthalmologist",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32730-6",
+          "text": "Eye care professional's office pamphlets",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32731-4",
+          "text": "Eye care professional's office videos",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32726-4",
+          "text": "Internet websites",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32732-2",
+          "text": "Newspaper or magazine articles",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32733-0",
+          "text": "Television/Radio",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32734-8",
+          "text": "Discussion with another patient",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32735-5",
+          "text": "Discussions with family or friends who have not had LASIK surgery",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32736-3",
+          "text": "Discussions with family or friends who have had LASIK surgery",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA46-8",
+          "text": "Other",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Have you ever been told by a LASIK surgeon or any other eye care professional that you should not have LASIK surgery performed?",
+      "codeList": [
+        {
+          "code": "99261-0",
+          "display": "Have you ever been told by a LASIK surgeon or any other eye care professional that you should not have LASIK surgery performed?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99261-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99261-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA33-6",
+          "text": "Yes",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32-8",
+          "text": "No",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Over the last 2 weeks, how often have you been bothered by having little interest or pleasure in doing things?",
+      "codeList": [
+        {
+          "code": "44250-9",
+          "display": "Over the last 2 weeks, how often have you been bothered by having little interest or pleasure in doing things?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "44250-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/44250-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6569-3",
+          "text": "Several days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6570-1",
+          "text": "More than half the days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6571-9",
+          "text": "Nearly every day",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless?",
+      "codeList": [
+        {
+          "code": "44255-8",
+          "display": "Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "44255-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/44255-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6569-3",
+          "text": "Several days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6570-1",
+          "text": "More than half the days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6571-9",
+          "text": "Nearly every day",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge?",
+      "codeList": [
+        {
+          "code": "69725-0",
+          "display": "Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "69725-0",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/69725-0",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6569-3",
+          "text": "Several days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6570-1",
+          "text": "More than half the days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6571-9",
+          "text": "Nearly every day",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Over the last 2 weeks, how often have you been bothered by not being able to stop or control worrying?",
+      "codeList": [
+        {
+          "code": "68509-9",
+          "display": "Over the last 2 weeks, how often have you been bothered by not being able to stop or control worrying?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "68509-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/68509-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA6568-5",
+          "text": "Not at all",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6569-3",
+          "text": "Several days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6570-1",
+          "text": "More than half the days",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6571-9",
+          "text": "Nearly every day",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "REAL",
+      "question": "About how many minutes do you think it took you to fill out this questionnaire? If you completed this survey in multiple sessions, estimate the total time you spent on the survey. Your best estimate is fine.",
+      "codeList": [
+        {
+          "code": "99423-6",
+          "display": "About how many minutes do you think it took you to fill out this questionnaire? If you completed this survey in multiple sessions, estimate the total time you spent on the survey. Your best estimate is fine.",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "99423-6",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/99423-6",
+      "questionCardinality": {
+        "max": "1",
+        "min": "1"
+      },
+      "units": [
+        {
+          "name": "min",
+          "code": "min",
+          "system": "http://unitsofmeasure.org",
+          "default": true
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "What is the highest level of education you have completed?",
+      "codeList": [
+        {
+          "code": "82589-3",
+          "display": "What is the highest level of education you have completed?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "82589-3",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/82589-3",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA12455-4",
+          "text": "8th grade or less",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32764-5",
+          "text": "Some high school, but did not graduate",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32765-2",
+          "text": "High school graduate or GED",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32766-0",
+          "text": "Some college or 2-year degree",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32767-8",
+          "text": "4-year college graduate",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32768-6",
+          "text": "More than 4-yearcollege degree",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Which category best describes your household income?",
+      "codeList": [
+        {
+          "code": "77244-2",
+          "display": "Which category best describes your household income?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "77244-2",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/77244-2",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA32769-4",
+          "text": "Less than $25,000",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32770-2",
+          "text": "$25,000-$49,999",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32771-0",
+          "text": "$50,000-$74,999",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32772-8",
+          "text": "$75,000-$99,999",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32773-6",
+          "text": "$100,000-$149,000",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32774-4",
+          "text": "$150,000 or more",
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    {
+      "dataType": "CODING",
+      "question": "Are you Hispanic, Latino, or of Spanish origin?",
+      "codeList": [
+        {
+          "code": "69854-8",
+          "display": "Are you Hispanic, Latino, or of Spanish origin?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "69854-8",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/69854-8",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA18367-5",
+          "text": "No, not of Hispanic, Latino-a, or of Spanish origin",
+          "system": "http://loinc.org",
+          "label": "a"
+        },
+        {
+          "code": "LA18368-3",
+          "text": "Yes, Mexican, Mexican-American, Chicano-a",
+          "system": "http://loinc.org",
+          "label": "b"
+        },
+        {
+          "code": "LA18369-1",
+          "text": "Yes, Puerto Rican",
+          "system": "http://loinc.org",
+          "label": "c"
+        },
+        {
+          "code": "LA18370-9",
+          "text": "Yes, Cuban",
+          "system": "http://loinc.org",
+          "label": "d"
+        },
+        {
+          "code": "LA18371-7",
+          "text": "Yes, another Hispanic, Latino-a, or Spanish origin",
+          "system": "http://loinc.org",
+          "label": "e"
+        }
+      ],
+      "codingInstructions": "This term is used for reporting ethnicity based on, but not limited in use to, the Department of Health and Human Services, Affordable Care Act Section 4302.",
+      "codingInstructionsFormat": "text",
+      "codingInstructionsPlain": "This term is used for reporting ethnicity based on, but not limited in use to, the Department of Health and Human Services, Affordable Care Act Section 4302.",
+      "codingInstructionsLinkId": "/69854-8-help"
+    },
+    {
+      "dataType": "CODING",
+      "question": "What is your race?",
+      "codeList": [
+        {
+          "code": "32624-9",
+          "display": "What is your race?",
+          "system": "http://loinc.org"
+        }
+      ],
+      "questionCode": "32624-9",
+      "questionCodeSystem": "LOINC",
+      "linkId": "/32624-9",
+      "answerCardinality": {
+        "max": "1",
+        "min": "0"
+      },
+      "displayControl": {
+        "answerLayout": {
+          "type": "COMBO_BOX"
+        }
+      },
+      "answers": [
+        {
+          "code": "LA4457-3",
+          "text": "White",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA10610-6",
+          "text": "Black or African American",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6155-1",
+          "text": "American Indian or Alaska Native",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14048-5",
+          "text": "Asian Indian",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA6156-9",
+          "text": "Asian",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA32763-7",
+          "text": "Samoan or Native Hawaiian",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA14047-7",
+          "text": "Other Pacific Islander",
+          "system": "http://loinc.org"
+        },
+        {
+          "code": "LA46-8",
+          "text": "Other",
+          "system": "http://loinc.org"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "R5"
+}
